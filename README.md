@@ -1,4 +1,6 @@
 # TOPSIS
+Technique for Order of Preference by Similarity to Ideal Solution
+
 The TOPSIS method is a Multi-Criteria Decision-Making (MCDM) method that ranks options. This method uses the concepts of ideal solution and similarity to the perfect solution. The ideal solution is the best solution, which generally does not exist in practice, and it tries to get closer to it. In order to measure the similarity of an option to an ideal and counter-ideal solution, the distance of that option from the ideal and anti-ideal solution is measured. The possibilities are then evaluated and ranked based on the ratio of the distance from the negative-ideal solution to the total distance from the positive-ideal and negative-ideal solutions. The word TOPSIS is derived from the initials of the phrase Technique for Order of Preference by Similarity to Ideal Solution.
 
 TOPSIS includes m options as a geometric system with m points in the n dimension space. The method is based on the concept that the alternative should have the shortest distance from the positive-ideal solution and the longest distance from the negative ideal solution. TOPSIS defines an indicator called similarity with a positive-ideal solution and avoidance of a negative-ideal solution. It then selects the alternative method with the maximum similarity to the positive-ideal solution.
@@ -16,9 +18,15 @@ C- The distance between the options from the positive ideal and the negative ide
 # Advantages
 
 Possibility of decision making with both positive and negative criteria.
+
 You can add as much as you need as the criteria to the decision matrix.
+
 Simple and fast approach for considering different options and criteria.
+
 Convert qualitative criteria to the quantified easily.
+
 The output is quantitative and the ranking of other options is expressed numerically.
+
 This method work with distances. 
+
 TOPSIS selects the option with the farthest distance from the worst option and the shortest distance from the optimal option.
