@@ -30,3 +30,17 @@ The output is quantitative and the ranking of other options is expressed numeric
 This method work with distances. 
 
 TOPSIS selects the option with the farthest distance from the worst option and the shortest distance from the optimal option.
+
+# Calculations
+
+1- Decision matrix: The first step is the decision matrix. The decision matrix consists of a set of criteria and options. The criteria are placed in columns, and the options are in a row. And each matrix cell evaluates each option against each criterion. For completing the matrix the real values of each criterion must add.
+
+2- Scaling the decision matrix (normalization) using the norm method.
+
+3- Determining the weights by multiplying the weight of the criteria obtained from other methods in the normal matrix.
+
+4- Finding the worst alternative and best alternative. The criteria type (positive or negative) must be specified.
+
+5- Calculating the distance between the worst and best alternative and the option values.
+
+6- Calculating the similarity index and ranking the options
